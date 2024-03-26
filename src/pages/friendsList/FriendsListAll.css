@@ -1,0 +1,23 @@
+/* FriendsListAll.css */
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the width as needed */
+  gap: 40px; /* Adjust the gap between users */
+}
+
+.user-card {
+  text-align: center;
+}
+
+.user-card img {
+  max-width: 10%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.user-card span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
